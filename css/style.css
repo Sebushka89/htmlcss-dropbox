@@ -141,4 +141,26 @@ h2{
 }
 .check{
     color: rgb(0,97,255);
+} /*fine3 colonne*/
+.team{
+    max-width: 1200px;
+    margin: 50px 450px 50px 350px;
+    height: 200px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+.team li{
+    margin: 15px 25px;
+    font-size: 15px;
+}
+.contact{
+    text-align: center;
+    background-color:rgb(0,97,255);
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    right: 25px;
 }
