@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     height: 850px;
@@ -17,8 +18,11 @@ header{
     display: table;
     clear: both;
 }
-.fl{ 
+.l{ 
     float: left;
+}
+.r{
+    float: right;
 }
 ul{
     list-style: none;
@@ -26,7 +30,13 @@ ul{
 .menu li{
     display: inline-block;
     padding: 10px;
-    color: black;
     font-size: 14px;
     text-align: center;
+    padding: 5PX 20PX;
+}
+.menu .login{
+    text-align: center;
+    background-color:cornflowerblue;
+    color: white;
+    padding: 5px 20px;
 }
