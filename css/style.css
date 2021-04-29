@@ -5,8 +5,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 850px;
+    height: 700px;
     background-color:rgb(180,208,231);
+
 }
 .navbar{
     background-color: white;
@@ -39,4 +40,31 @@ ul{
     background-color:cornflowerblue;
     color: white;
     padding: 5px 20px;
+}
+/*fine navbar*/
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 70px;
+    margin-top: 20px;
+}
+.testo{
+    width: 25%;
+    text-align: left;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+}
+.container .login{
+    text-align: center;
+    background-color:cornflowerblue;
+    color: white;
+    padding: 5px 10px;
+    width: 60%;
+}
+p{
+    margin: 20px 0;
 }
