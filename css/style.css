@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 850px;
+    background-color:rgb(180,208,231);
+}
+.navbar{
+    background-color: white;
+    height: 80px;
+    padding: 20PX;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{ 
+    float: left;
+}
+ul{
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
