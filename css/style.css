@@ -11,13 +11,15 @@ header{
 }
 .navbar{
     background-color: white;
-    height: 80px;
     padding: 20PX;
 }
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.logo{
+    padding: 4px 5px 0 0;
 }
 .l{ 
     float: left;
@@ -31,9 +33,10 @@ ul{
 .menu li{
     display: inline-block;
     padding: 10px;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     padding: 5PX 20PX;
+    font-weight: 550;
 }
 .menu .login{
     text-align: center;
@@ -75,4 +78,20 @@ height: 500px;
 position: absolute;
 right: -350px;
 bottom: -90px;
+}
+/*fine jumbotron*/
+.ctn{
+    max-width: 1200px;
+    margin: 200px auto 0;
+}
+.ctn h1{
+    font-size: 50px;
+    text-align: left;
+}
+.preference {
+    display: inline;
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 20px;
+    padding-top: 30px;
 }
