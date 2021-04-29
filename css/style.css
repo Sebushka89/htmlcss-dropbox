@@ -7,7 +7,7 @@
 header{
     height: 700px;
     background-color:rgb(180,208,231);
-
+    position: relative;
 }
 .navbar{
     background-color: white;
@@ -37,7 +37,7 @@ ul{
 }
 .menu .login{
     text-align: center;
-    background-color:cornflowerblue;
+    background-color:rgb(0,97,255);
     color: white;
     padding: 5px 20px;
 }
@@ -47,24 +47,32 @@ ul{
     margin: 0 auto;
 }
 h1{
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 20px;
 }
 .testo{
     width: 25%;
     text-align: left;
-}
-.pic{
-    width: 100px;
-    height: 100px;
+    display: inline-block;
 }
 .container .login{
     text-align: center;
-    background-color:cornflowerblue;
+    background-color:rgb(0,97,255);
     color: white;
-    padding: 5px 10px;
+    padding: 10px 10px;
     width: 60%;
+    font-size: 15px;
 }
 p{
     margin: 20px 0;
+}
+.pic-jumbo{
+background-image: url(../img/jumbo.png);
+background-size:contain;
+background-repeat: no-repeat;
+width: 80%;
+height: 500px;
+position: absolute;
+right: -350px;
+bottom: -90px;
 }
