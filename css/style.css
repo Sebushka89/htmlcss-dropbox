@@ -95,3 +95,24 @@ bottom: -90px;
     margin-right: 20px;
     padding-top: 30px;
 }
+.otn{
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+.professional{
+    background-color: crimson;
+    border: 2px solid black;
+    width: 350px;
+    margin-right: 25px;
+}
+.standard{
+    background-color: crimson;
+    border: 2px solid black;
+    width: 350px;
+    margin-right: 25px;
+}
+.advanced{
+    background-color: crimson;
+    border: 2px solid black;
+    width: 350px;
+}
