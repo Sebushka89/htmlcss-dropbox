@@ -286,6 +286,11 @@ h2{
     width: 33.33%;
     height: 600px;
     background-color: whitesmoke;
+    padding: 30px;
+}
+.lg{
+    width: 200px;
+    height: 70px;
 }
 .destra{
     float: left;
@@ -330,8 +335,15 @@ h2{
   left: 50%;
   transform: translate(-50%,-50%);
 }
-svg path{
+.nome .nome-img path{
     fill: white;
+}
+.lg .nome-img path{
+    fill: black;
+    margin-bottom: 50px;
+}
+.comment{
+    padding: 180px 0 100px;
 }
 /*striscia blu*/
 article{
@@ -375,7 +387,6 @@ article{
 .arrow{
     position: absolute;
     right: 10px;
-
 }
 
  /*footer*/
