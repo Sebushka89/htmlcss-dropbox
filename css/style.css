@@ -74,10 +74,10 @@ p{
 background-image: url(../img/jumbo.png);
 background-size:contain;
 background-repeat: no-repeat;
-width: 80%;
+width: 900px;
 height: 500px;
 position: absolute;
-right: -350px;
+right: 250px;
 bottom: -90px;
 }
 /*fine jumbotron*/
@@ -246,6 +246,25 @@ h2{
     margin: 100px 0 30px;
     font-weight: bold;
 }
+/*loghi*/
+.sinistra{
+    display: inline-block;
+    width:  30%;
+    height: 600px;
+    background-color: red;
+}
+.centro{
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    background-color: yellow;
+}
+.destra{
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    background-color: blue;
+}
 /*striscia blu*/
 article{
     height: 400px;
@@ -291,10 +310,10 @@ article{
 
 }
 
-    /*footer*/
+ /*footer*/
 footer{
     background-color: black;
-    height: 750px;
+    height: 650px;
     margin-top: 100px;
 }
 footer ul{
