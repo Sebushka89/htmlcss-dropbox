@@ -245,29 +245,47 @@ h2{
     font-size: 50px;
     margin: 100px 0 30px;
     font-weight: bold;
+}
+/*faq*/
+.ftn{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.question{
+    border-bottom: 1px solid lightgray;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: 10px;
+
+}
+
+    /*footer*/
+footer{
+    background-color: black;
+    height: 750px;
+    margin-top: 100px;
+}
+footer ul{
+    float: left;
+    padding-top: 50px;
+    width: 20%;
+}
+footer li{
+    color: white;
+    margin-top: 25px;
+}
+footer li:first-child{
+    font-size: 25px;
+    height: 50px;
     }
-    footer{
-        background-color: black;
-        height: 750px;
-    }
-    footer ul{
-        float: left;
-        padding-top: 50px;
-        width: 20%;
-    }
-    footer li{
-        color: white;
-        margin-top: 25px;
-        font-family: 'Krona One', sans-serif
-    }
-    footer li:first-child{
-        font-size: 25px;
-        height: 50px;
-        font-family: 'Krona One', sans-serif;
-    }
-    .selection{
-        width: 75px;
-        border-top: white 2px solid;
-        padding-top: 10px;
-    }
+.selection{
+    width: 75px;
+    border-top: white 2px solid;
+    padding-top: 30px;
+    margin-top: 100px;
+}
     
