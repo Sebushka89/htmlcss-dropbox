@@ -246,6 +246,34 @@ h2{
     margin: 100px 0 30px;
     font-weight: bold;
 }
+/*striscia blu*/
+article{
+    height: 400px;
+    background-color:rgb(180,208,231);
+
+}
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.t{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(97,8,43);
+    width: 70%;
+    padding-top: 150px;
+}
+.banner .login{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 175px;
+}
 /*faq*/
 .ftn{
     max-width: 1200px;
