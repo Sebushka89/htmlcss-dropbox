@@ -49,7 +49,7 @@ ul{
     max-width: 1400px;
     margin: 0 auto;
 }
-h1{
+.container h1{
     font-size: 60px;
     margin-top: 20px;
 }
@@ -141,7 +141,8 @@ h2{
 }
 .check{
     color: rgb(0,97,255);
-} /*fine3 colonne*/
+} 
+/*fine3 colonne*/
 .team{
     max-width: 1200px;
     margin: 50px 450px 50px 350px;
@@ -164,3 +165,85 @@ h2{
     top: 70px;
     right: 25px;
 }
+.ptn{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.pic-team{
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    width: 600px;
+    height: 500px;
+}
+.text-team{
+    max-width: 550px;
+    text-align: left;
+    padding: 35px;
+    margin-top: 20px;
+
+}
+.text-team li{
+    padding-top: 35px;
+}
+.trova{ 
+    text-align: center;
+    border: 1px solid black;
+    color:black;
+    padding: 10px 10px;
+    width: 50%;
+    font-size: 15px;
+}
+.item{
+    float: left;
+    width: 33.33%;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.img1{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.img2{
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.img3{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.img4{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.img5{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.img6{
+    background-image: url(../img/business-feature-security.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 60%;
+}
+.piudi{
+    font-size: 50px;
+    margin: 100px 0 30px;
+    font-weight: bold;
+
+    }
