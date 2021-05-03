@@ -4,32 +4,44 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+a{
+    text-decoration: none;
+}    
+
 header{
     height: 700px;
     background-color:rgb(180,208,231);
     position: relative;
 }
+
 .navbar{
     background-color: white;
     padding: 20PX;
 }
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
 .logo{
     padding: 4px 5px 0 0;
 }
-.l{ 
+
+.left{ 
     float: left;
 }
-.r{
+
+.right{
     float: right;
 }
+
 ul{
     list-style: none;
 }
+
 .menu li{
     display: inline-block;
     padding: 10px;
@@ -38,6 +50,7 @@ ul{
     padding: 5PX 20PX;
     font-weight: 550;
 }
+
 .menu .login{
     text-align: center;
     background-color:rgb(0,97,255);
@@ -45,20 +58,23 @@ ul{
     padding: 5px 20px;
 }
 /*fine navbar*/
-.container{
+
+.container-jumbotron{
     max-width: 1400px;
     margin: 0 auto;
 }
-.container h1{
+
+.container-jumbotron h1{
     font-size: 60px;
     margin-top: 20px;
 }
+
 .testo{
     width: 25%;
     text-align: left;
     display: inline-block;
-
 }
+
 .container .login{
     text-align: center;
     background-color:rgb(0,97,255);
@@ -67,28 +83,32 @@ ul{
     width: 60%;
     font-size: 15px;
 }
+
 p{
     margin: 20px 0;
 }
+
 .pic-jumbo{
-background-image: url(../img/jumbo.png);
-background-size:contain;
-background-repeat: no-repeat;
-width: 900px;
-height: 500px;
-position: absolute;
-right: 250px;
-bottom: -90px;
+    background-image: url(../img/jumbo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    right: 250px;
+    bottom: -90px;
 }
 /*fine jumbotron*/
-.ctn{
+
+.container-option{
     max-width: 1200px;
     margin: 200px auto 0;
 }
-.ctn h1{
+
+.container-option h1{
     font-size: 50px;
-    text-align: left;
 }
+
 .preference {
     display: inline;
     font-weight: bolder;
@@ -96,17 +116,20 @@ bottom: -90px;
     margin-right: 20px;
     padding-top: 30px;
 }
+
 /*inizio 3 colonne float-*/
-.otn{
+.colonne{
     max-width: 1200px;
     margin: 50px auto 0;
 }
+
 .professional{
     height: 900px;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     width: 350px;
     margin-right: 25px;
 }
+
 .standard{
     height: 900px;
     border: 1px solid lightgray;
@@ -114,17 +137,20 @@ bottom: -90px;
     margin-right: 25px;
     margin-bottom: 50px;
 }
+
 .advanced{
     height: 900px;
     border: 1px solid lightgray;
     width: 350px;
 }
+
 h2{
     text-align: center;
     border-bottom: 1px solid lightgray;
     font-weight: lighter;
     padding: 5px 0;
 }
+
 .annulla{
     text-align: center;
     background-color:rgb(0,97,255);
@@ -135,14 +161,18 @@ h2{
     margin-bottom: 30px;
     margin-top: 50px;
 }
+
 .professional li, .standard li, .advanced li{
     margin: 25px 25px;
     font-size: 15px;
 }
+
 .check{
     color: rgb(0,97,255);
 } 
+
 /*fine3 colonne*/
+
 .team{
     max-width: 1200px;
     margin: 50px 450px 50px 350px;
@@ -150,10 +180,12 @@ h2{
     border: 1px solid lightgray;
     position: relative;
 }
+
 .team li{
     margin: 15px 25px;
     font-size: 15px;
 }
+
 .contact{
     text-align: center;
     background-color:rgb(0,97,255);
@@ -165,26 +197,30 @@ h2{
     top: 70px;
     right: 25px;
 }
-.ptn{
+/*sezione 6 item*/
+.container-margini{
     max-width: 1200px;
     margin: 50px auto;
 }
+
 .pic-team{
     background-image: url(../img/partner.png);
     background-size: contain;
     width: 600px;
     height: 500px;
 }
+
 .text-team{
     max-width: 550px;
     text-align: left;
     padding: 35px;
     margin-top: 20px;
-
 }
+
 .text-team li{
     padding-top: 35px;
 }
+
 .trova{ 
     text-align: center;
     border: 1px solid black;
@@ -193,12 +229,14 @@ h2{
     width: 50%;
     font-size: 15px;
 }
+
 .item{
     float: left;
     width: 33.33%;
     height: 500px;
     margin-bottom: 50px;
 }
+
 .img1{
     background-image: url(../img/business-feature-switching-tools.png);
     background-size: contain;
@@ -206,6 +244,7 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .img2{
     background-image: url(../img/business-feature-coordinate-it.png);
     background-size: contain;
@@ -213,6 +252,7 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .img3{
     background-image: url(../img/business-feature-multi-device.png);
     background-size: contain;
@@ -220,6 +260,7 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .img4{
     background-image: url(../img/business-feature-integrations-it.png);
     background-size: contain;
@@ -227,6 +268,7 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .img5{
     background-image: url(../img/business-feature-send-files-it.png);
     background-size: contain;
@@ -234,6 +276,7 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .img6{
     background-image: url(../img/business-feature-security.png);
     background-size: contain;
@@ -241,11 +284,13 @@ h2{
     width: 350px;
     height: 60%;
 }
+
 .piudi{
     font-size: 50px;
     margin: 100px 0 30px;
     font-weight: bold;
 }
+
 /*loghi*/
 .sinistra{
     float: left;
@@ -253,18 +298,21 @@ h2{
     height: 600px;
     position: relative;
 }
+
 .verde{
     width: 50%;
     height: 300px;
     background-color: rgb(162,211,155);
     position: relative;
 }
+
 .azzurro{
     width: 50%;
     height: 300px;
     background-color: rgb(0,147,206);
     position: relative;
 }
+
 .purple{
     height: 300px;
     width: 50%;
@@ -273,6 +321,7 @@ h2{
     top: 0;
     right: 0;
 }
+
 .red{
     height: 300px;
     width: 50%;
@@ -281,6 +330,7 @@ h2{
     bottom: 0;
     right: 0;
 }
+
 .centro{
     float: left;
     width: 33.33%;
@@ -288,28 +338,33 @@ h2{
     background-color: whitesmoke;
     padding: 30px;
 }
+
 .lg{
     width: 200px;
     height: 70px;
 }
+
 .destra{
     float: left;
     width: 33.33%;
     height: 600px;
     position: relative;
 }
+
 .crimson{
     background-color:rgb(213,0,31);
     width: 50%;
     height: 300px;
     position: relative;
 }
+
 .darkblu{
     background-color:rgb(13,36,129);
     width: 50%;
     height: 300px;
     position: relative;
 }
+
 .smoke{
     background-color:rgb(180,208,231);
     width: 50%;
@@ -317,8 +372,8 @@ h2{
     position: absolute;
     top: 0;
     right: 0;
-
 }
+
 .giallo{
     background-color:rgb(255,216,48);
     width: 50%;
@@ -327,43 +382,49 @@ h2{
     bottom: 0;
     right: 0;
     border: rgb(255,235,152) 10px solid;
-
 }
+
 .nome{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
 .nome .nome-img path{
     fill: white;
 }
+
 .lg .nome-img path{
     fill: black;
     margin-bottom: 50px;
 }
+
 .comment{
     padding: 180px 0 100px;
 }
-/*striscia blu*/
+
+/*banner blu*/
 article{
     height: 400px;
     background-color:rgb(180,208,231);
-
 }
-.banner{
+
+.banner-blu{
     width: 1200px;
     margin: 0 auto;
     position: relative;
 }
-.t{
+
+.banner-blu .testo{
     font-size: 50px;
     font-weight: bold;
     color: rgb(97,8,43);
     width: 70%;
     padding-top: 150px;
 }
-.banner .login{
+
+.banner-blu .login{
     text-align: center;
     background-color: white;
     color: black;
@@ -373,17 +434,20 @@ article{
     right: 0;
     top: 175px;
 }
+
 /*faq*/
-.ftn{
+.faq{
     max-width: 1200px;
     margin: 50px auto;
 }
+
 .question{
     border-bottom: 1px solid lightgray;
     padding-top: 35px;
     padding-bottom: 35px;
     position: relative;
 }
+
 .arrow{
     position: absolute;
     right: 10px;
@@ -395,23 +459,27 @@ footer{
     height: 650px;
     margin-top: 100px;
 }
+
 footer ul{
     float: left;
     padding-top: 50px;
     width: 20%;
 }
+
 footer li{
     color: white;
     margin-top: 25px;
+    font-size: 15px;
 }
+
 footer li:first-child{
-    font-size: 25px;
+    font-size: 27px;
     height: 50px;
-    }
+}
+
 .selection{
     width: 75px;
     border-top: white 2px solid;
     padding-top: 30px;
     margin-top: 100px;
 }
-    
