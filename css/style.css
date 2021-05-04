@@ -141,14 +141,14 @@ p{
 }
 
 .professional{
-    height: 1000px;
+    height: 975px;
     border: 1px solid lightgray;
     width: 350px;
     margin-right: 25px;
 }
 
 .standard{
-    height: 1000px;
+    height: 975px;
     border: 1px solid lightgray;
     width: 350px;
     margin-right: 25px;
@@ -156,7 +156,7 @@ p{
 }
 
 .advanced{
-    height: 1000px;
+    height: 975px;
     border: 1px solid lightgray;
     width: 350px;
 }
@@ -191,8 +191,8 @@ h2{
 
 .colonne li:first-child{
     font-weight: bolder;
-    font-size: 35px;
-} 
+    font-size: 30px;
+}
 
 /*fine3 colonne*/
 
